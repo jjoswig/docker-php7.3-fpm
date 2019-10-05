@@ -1,3 +1,4 @@
+# Build command: docker build -t php:jj .
 FROM php:7.3.10-fpm
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
